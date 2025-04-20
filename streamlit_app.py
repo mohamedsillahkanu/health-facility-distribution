@@ -82,7 +82,7 @@ if all([shp_file, shx_file, dbf_file, facility_file]):
             point_alpha = st.slider("Point Transparency", 0.1, 1.0, 0.7)
 
         with col5:
-            background_color = st.selectbox("Background Color", ["white", "black", "lightgray", "beige", "lightblue"])
+            background_color = st.selectbox("Background Color", ["white", "lightgray", "beige", "lightblue"])
             point_color = st.selectbox("Facility Point Color", ["#47B5FF", "red", "green", "purple", "orange"])
 
         # ────────── Clean Coordinates ──────────
